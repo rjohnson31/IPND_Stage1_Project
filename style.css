@@ -1,0 +1,165 @@
+/* Colors:
+	-- #f2e6ff - very light purple for text background
+	-- #0d001a - very dark purple for back of main sections
+	-- #1a0033 - slightly lighter dark purple for trims/divider line
+	-- #e6b800 - gold for trim and accentuation
+*/
+
+body {
+	background-color: #f2e6ff;
+	margin: auto;
+	width: 90%;
+}
+
+.small_text {
+	font-size: x-small;
+}
+
+.header {
+	margin: auto;
+	padding: 0px;
+	color: #e6b800;
+	background-color: #0d001a;
+	border: solid 1px;
+	border-color: #e6b800;
+	text-align: center;
+}
+
+.header_image {
+	height: 100px;
+	width: auto;
+	max-height: 100%;
+}
+
+.footer {
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;	
+	background-color: #0d001a;
+	border: solid 1px;
+	border-color: #e6b800;
+}
+
+.footer_section {
+	border-right: #e6b800 solid 1px;
+	width: 25%;
+	color: #e6b800;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:3px;
+	font-size: x-small;
+	margin: auto;
+	
+}
+
+.footer_text {
+	width: 95%;
+	color: #e6b800;
+	text-transform: none;
+	padding:3px;
+	font-weight: normal;
+	font-size: x-small;
+	margin: auto;
+
+}
+
+ul.share-buttons {
+  	list-style: none;
+  	padding: 0;
+}
+
+/*"Main Area Block" is middle portion of the page and includes
+		both the side bar and the main content pane.*/
+
+.main_area_block {
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	background-color: #f2e6ff;
+	border: solid 1px;
+	border-color: #e6b800;
+}
+
+/*Side bar pane.  Structurally allows 3 levels.  Two primarily meant for use.*/
+
+.side_bar {
+	margin-top: 0px;
+	width: 30%;
+	color: #e6b800;
+	font-family: Arial, Sans-Serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: solid 1px;
+	border-color: #e6b800;
+	background-color: #0d001a;
+}
+
+.side_bar_title {
+	width: auto;
+	margin: 10px;
+	font-size: small;
+	text-align: center;
+	padding: 5px;
+	color: #26004d;
+	border: solid 1px;
+	border-color: #26004d;
+	background-color: #e6b800;
+	text-transform: none;
+	border-radius: 15px;
+}
+
+.side_bar_content {
+	width: 95%;
+	margin: auto;
+	color: #0d001a;
+	background-color: #f2e6ff;
+	border: solid 1px;
+	border-color: #0d001a;
+	padding: 4px;
+	font-size: small;
+	font-weight: normal;
+	text-align: left;
+	text-transform: none;
+	border-radius: 10px;
+}
+
+/*Main content pane.  Structurally allows 3 levels.  Two primarily meant for use.*/
+
+.main_content_pane { 
+	margin: auto;
+	width: 70%;
+	padding: 15px;
+	color: #0d001a;
+	background-color: #f2e6ff;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main_content_title {  
+	padding: 15px;
+}
+
+.main_content {  
+	text-transform: none;
+	padding: 15px;
+	font-size: medium;
+	font-weight: normal;
+}
+
+.divider_img {
+	display: block;
+	margin: auto;
+	padding-top: 0px;
+	width: 400px;
+	height: 3px;
+}
